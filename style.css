@@ -155,10 +155,14 @@ body {
     margin-bottom: auto;
     font-family: var(--nav-font);
     color: var(--font-color);
+    text-align: center;
 }
 
 #links a {
     text-decoration: none;
+    width: 60%;
+    border: 1px solid white;
+    padding: 1rem;
 }
 
 #links a:visited {
