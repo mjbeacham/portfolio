@@ -47,6 +47,7 @@ body {
 .bar ul li a {
     text-color: var(--font-color);
     text-decoration: none;
+    color: var(--font-color);
 }
 
 .bar ul li a:visited {
@@ -93,7 +94,54 @@ body {
 
 /* blogs */
 
+.dropbtn {
+    background-color: #333;
+    color: var(--font-color);
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.blog-list {
+    display: none;
+    position: absolute;
+    /* background-color: ; */
+    /* min-width: ; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1;
+}
+
+.blog-list a {
+    color: var(--font-color);
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .blog-list {
+    display: block;
+}
+
+.blog {
+    font-family: var(--general-font);
+    color: var(--font-color);
+    margin: 1rem;
+}
+
+.blog-title {
+    font-family: var(--title-font);
+    text-align: center;
+    margin: 1rem;
+}
+
+.publish-date {
+    text-align: right;
+}
 
 /* links */
 
@@ -106,10 +154,16 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-family: var(--nav-font);
+    color: var(--font-color);
 }
 
 #links a {
     text-decoration: none;
+}
+
+#links a:visited {
+    text-decoration: none;
+    color: var(--font-color);
 }
 
 /* footer */
