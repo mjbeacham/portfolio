@@ -4,6 +4,7 @@
     --mono-font: "Ubuntu Mono", sans-serif;
     --nav-font: "Montserrat", sans-serif;
     --font-color: #e9e9e9;
+    --highlight-color: #FF8600;
 }
 
 * {
@@ -45,14 +46,16 @@ body {
 }
 
 .bar ul li a {
-    text-color: var(--font-color);
-    text-decoration: none;
     color: var(--font-color);
+    text-decoration: none;
+}
+
+.bar ul li a:hover {
+    color: var(--highlight-color);
 }
 
 .bar ul li a:visited {
     text-decoration: none;
-    color: var(--font-color);
 }
 
 .main {
@@ -75,7 +78,7 @@ body {
 #about-me h1 {
     margin: 1rem;
     font-family: var(--title-font);
-    color: var(--font-color);
+    color: var(--highlight-color);
 }
 
 #about-me h1 p {
@@ -95,39 +98,53 @@ body {
 /* blogs */
 
 .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
+  background-color: var(--highlight-color); 
+  color: black;
+  padding: 1rem;
+  font-size: 1rem;
   border: none;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    /* display: flex; */
+    /* width: 160px; */
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    font-family: var(--nav-font);
+    list-style: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 6.8em;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+}
 
 .blog {
     font-family: var(--general-font);
@@ -143,6 +160,31 @@ body {
 
 .publish-date {
     text-align: right;
+    color: var(--highlight-color);
+}
+
+.blog-top {
+    text-align: center;
+    padding: 1rem;
+}
+
+.blog-top a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+.blog-top a:visited {
+    text-decoration: none;
+}
+
+.blog-hero {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("images/zebra-hero.jpg") center;
+  background-size: cover;
 }
 
 /* links */
@@ -162,14 +204,18 @@ body {
 
 #links a {
     text-decoration: none;
+    color: var(--font-color);
     width: 60%;
     border: 1px solid white;
     padding: 1rem;
 }
 
+#links a:hover {
+    color: var(--highlight-color);
+}
+
 #links a:visited {
     text-decoration: none;
-    color: var(--font-color);
 }
 
 /* footer */
