@@ -26,7 +26,59 @@ body {
 
 /* media queries */
 
+@media screen and (min-width: 401px) {
+    .bar ul {
+        width: 80%;
+        margin: auto;
+    }
 
+    .main {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-me {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .blog-text-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #links {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .bar ul {
+        width: 50%;
+        margin: auto;
+    }
+
+    .main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .blog-text-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    #links {
+        width: 50%;
+        margin: auto;
+    }
+}
 
 /* nav */
 
@@ -38,15 +90,14 @@ body {
 
 .bar ul {
     display: flex;
-    /* align-content: center; */
-    /* margin: 0; */
+    justify-content: space-around;
     padding: 1rem;
 }
 
 .bar ul li {
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 .bar ul li a {
@@ -62,42 +113,57 @@ body {
     text-decoration: none;
 }
 
-.main {
-    /* background: #505050; */
-}
-
 /* home page */
 
-#about-me {
+.main {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     text-align: center;
     justify-content: center;
-    align-items: center;
-    margin: 1rem;
     height: 100vh;
 }
 
-#about-me h1 {
+.main h1 {
     margin: 1rem;
     font-family: var(--title-font);
     color: var(--highlight-color);
 }
 
-#about-me h1 p {
+.main h1 p {
     margin: 1rem;
     padding: 1rem;
 }
 
-#about-me p {
+.main p {
     font-family: var(--general-font);
     color: var(--font-color);
 }
 
 /* about me */
 
+.about-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+.about-me h1 {
+    margin: 1rem;
+    font-family: var(--title-font);
+    color: var(--highlight-color);
+}
+
+.about-me h1 p {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.about-me p {
+    font-family: var(--general-font);
+    color: var(--font-color);
+}
 
 /* blogs */
 
@@ -250,18 +316,21 @@ body {
   font-weight: normal;
 }
 
-.blog p {
+.publish-date {
+    text-align: right;
+    color: var(--highlight-color);
+    font-family: var(--general-font);
+    margin: 1rem;
+}
+
+.blog-text {
     font-family: var(--general-font);
     color: var(--font-color);
     margin: 1rem;
 }
 
-.publish-date {
-    text-align: right;
-    color: var(--highlight-color);
-}
-
 .blog-top {
+    font-family: var(--nav-font);
     text-align: center;
     padding: 1rem;
 }
