@@ -61,12 +61,13 @@ body {
 
   .main {
     display: flex;
+    flex-direction: row-reverse;
     align-items: flex-end;
     width: 50%;
     margin: auto;
   }
 
-  .main-image {
+  /* .main-image {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -75,7 +76,7 @@ body {
   .main-text {
     order: 1
     align-self: ;
-  }
+  } */
 
   .about-me {
     width: 50%;
@@ -133,7 +134,7 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main h1 {
