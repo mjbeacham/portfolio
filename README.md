@@ -23,15 +23,15 @@ All pages have unified and simple design elements for a consistent experience ac
 
 ## Sitemap
 
-![Site Map](.sitemap/sitemap.jpg)
+![Site Map](.docs/sitemap.jpg)
 
 ## Screenshots
 
 ### Home/Index
-![home](.screens/home-screenshot.jpg)
-![about-me](.screens/about-me-screenshot.jpg)
-![blogs](.screens/blogs-screenshot.jpg)
-![links](.screens/links-screenshot.jpg)
+![home](.docs/home-screenshot.jpg)
+![about-me](.docs/about-me-screenshot.jpg)
+![blogs](.docs/blogs-screenshot.jpg)
+![links](.docs/links-screenshot.jpg)
 
 ## Target audience
 

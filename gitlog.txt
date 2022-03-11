@@ -1,0 +1,107 @@
+commit 56837b8ee5b8af9bd217ed9daf66ce4854b9ad75
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 11 20:17:15 2022 +1100
+
+    submission commit
+
+commit b58a6761198789869bbd8edd5af363c7a67a2458
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 11 17:49:14 2022 +1100
+
+    final commit
+
+commit 836d68e6ed6c0cca3ab009f7860cc345e7c44c13
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 11 16:51:47 2022 +1100
+
+    content added
+
+commit 83b4f7b5f660d1cf415b9feaab828f19b48a8753
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 11 14:46:35 2022 +1100
+
+    finalised styling
+
+commit fb0713ca8a8086ec53a179fdef455869821349b5
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Wed Mar 9 17:04:21 2022 +1100
+
+    media breakpoint deployment testing
+
+commit b1066265875233767709b2e79c790f0249fa1ebe
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Wed Mar 9 16:38:02 2022 +1100
+
+    tweaking media breakpoints on index.html
+
+commit 67488225a7f74a129ff96969c351d0e172e97df4
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 4 19:24:15 2022 +1100
+
+    initial media queries added
+
+commit a7fbe5c7710b72416b18274e977934cf5fa483a6
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Mar 4 14:16:59 2022 +1100
+
+    completed styling on blogs
+
+commit 445b673081d69e9751751dd7036376e2411363a1
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Wed Mar 2 11:52:08 2022 +1100
+
+    dropdown phone live testing
+
+commit 5f5510ec7ca8694d36d1f8a12e73646ca2efaf01
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Wed Mar 2 10:29:20 2022 +1100
+
+    changed html and css for dropdown menu
+
+commit 999565e41980b4fd0b1da513ac9d3c591e9869f9
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Tue Mar 1 13:49:59 2022 +1100
+
+    links page button styling
+
+commit db0880fe12190fa4e70102543a73b35760f2349d
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Tue Mar 1 13:30:09 2022 +1100
+
+    styled blog page and created dropdown menu
+
+commit 0f0238cc356eb7ff71d31e930330cfd2a143983f
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Mon Feb 28 16:50:37 2022 +1100
+
+    compressed overlapping css code and created variables for recurring elements
+
+commit 618ab0942da16f341c0cb98846c231c9276b59b6
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Mon Feb 28 15:57:14 2022 +1100
+
+    typefaces picked and nav/footer styling begun
+
+commit 7e603e781670b77418b9fb7ac9850f59e6689934
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Mon Feb 28 14:39:05 2022 +1100
+
+    layout changes and refactored css
+
+commit 3e8e4c4d44076e27f2d8389a3040e31972783002
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Feb 25 22:44:12 2022 +1100
+
+    main page positioning
+
+commit f5d02843a5b82b64c2bb3725f558785830a47519
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Feb 25 20:43:46 2022 +1100
+
+    initial html contents added
+
+commit 7ba7ed979c11d3ebbdd89391512c593fa63dca8f
+Author: mjbeacham <beacham.matt@gmail.com>
+Date:   Fri Feb 25 17:41:43 2022 +1100
+
+    initial sitemap creation
